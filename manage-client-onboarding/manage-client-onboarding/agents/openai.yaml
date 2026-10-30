@@ -1,0 +1,14 @@
+interface:
+  display_name: Global Bridge Client Onboarding
+  short_description: Maintain and test the two-flow client onboarding process
+  default_prompt: Use $manage-client-onboarding to continue configuring or testing
+    the Global Bridge consultation and onboarding workflow.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
